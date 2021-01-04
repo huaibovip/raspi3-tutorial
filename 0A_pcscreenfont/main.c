@@ -37,6 +37,7 @@ void main()
 
     // display a UTF-8 string on screen with SSFN
     lfb_proprint(80, 120, "Hello 多种语言 Многоязычный többnyelvű World!");
+    lfb_proprint(80, 160, "by Charles");
 
     // echo everything back
     while(1) {
